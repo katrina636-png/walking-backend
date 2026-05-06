@@ -1,7 +1,7 @@
 {
   "name": "walking-challenge-backend",
-  "version": "1.0.0",
-  "description": "걷기 챌린지 백엔드 API (Render 배포용)",
+  "version": "2.0.0",
+  "description": "걷기 챌린지 백엔드 API (Firebase Firestore + Render 배포용)",
   "main": "server.js",
   "engines": {
     "node": ">=18"
@@ -14,7 +14,7 @@
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.7.0"
+    "firebase-admin": "^12.6.0",
+    "jsonwebtoken": "^9.0.2"
   }
 }
