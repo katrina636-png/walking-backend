@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: walking-challenge-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false
+      - key: CORS_ORIGIN
+        value: "*"
+      - key: ADMIN_EMAILS
+        sync: false
